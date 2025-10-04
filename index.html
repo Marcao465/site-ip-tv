@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pacotes Promocionais de Entretenimento</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 13px rgba(0,0,0,0.75);
+    }
+
+    .logo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: #fff;
+    }
+
+    .pacote {
+      border: 1px solid #555;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .pacote h2 {
+      margin-top: 0;
+      color: #00b894;
+    }
+
+    .botao {
+      background: #00b894;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 4px;
+      text-decoration: none;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .botao:hover {
+      background: #019875;
+    }
+
+    .galeria {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .galeria h2 {
+      color: #00b894;
+      margin-bottom: 20px;
+    }
+
+    .galeria .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .galeria figcaption {
+      font-size: 14px;
+      margin-top: 8px;
+      color: #fff;
+    }
+
+    .contato {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      color: #ccc;
+      font-size: 13px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Logo Marcão IPTV -->
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo Marcão IPTV" class="logo" />
+    </div>
+
+    <h1>Pacotes Promocionais de Entretenimento</h1>
+
+    <!-- Pacotes -->
+    <div class="pacote">
+      <h2>Pacote Mensal – R$ 20</h2>
+      <p>1 mês de acesso aos conteúdos premium.</p>
+      <a class="botao" href="https://linkpix.pro/Marcos_Vinicius_Dionizio/Gaspar/marcao465,gmail.com/2000/_/0743" 
+         target="_blank" onclick="copiarPix(event)">Pagar via Pix</a>
+    </div>
+
+    <div class="pacote">
+      <h2>Pacote Trimestral – R$ 55</h2>
+      <p>3 meses de acesso com economia.</p>
+      <a class="botao" href="https://linkpix.pro/Marcos_Vinicius_Dionizio/Gaspar/marcao465,gmail.com/5500/_/6fb5" 
+         target="_blank" onclick="copiarPix(event)">Pagar via Pix</a>
+    </div>
+
+    <div class="pacote">
+      <h2>Pacote Semestral – R$ 100</h2>
+      <p>6 meses de entretenimento garantido.</p>
+      <a class="botao" href="https://linkpix.pro/Marcos_Vinicius_Dionizio/Gaspar/marcao465,gmail.com/10000/_/34c3" 
+         target="_blank" onclick="copiarPix(event)">Pagar via Pix</a>
+    </div>
+
+    <div class="pacote">
+      <h2>Pacote Anual – R$ 180</h2>
+      <p>12 meses de conteúdo premium com desconto.</p>
+      <a class="botao" href="https://linkpix.pro/Marcos_Vinicius_Dionizio/Gaspar/marcao465,gmail.com/18000/_/24c9" 
+         target="_blank" onclick="copiarPix(event)">Pagar via Pix</a>
+    </div>
+
+    <!-- Galeria de Filmes -->
+    <section class="galeria">
+      <h2>Lançamentos de Filmes em 2025</h2>
+      <div class="grid">
+        <figure>
+          <img src="capitao-america.jpg" alt="Capitão América: Admirável Mundo Novo" />
+          <figcaption>Capitão América</figcaption>
+        </figure>
+        <figure>
+          <img src="mickey17.jpg" alt="Mickey 17" />
+          <figcaption>Mickey 17</figcaption>
+        </figure>
+        <figure>
+          <img src="branca-de-neve.jpg" alt="Branca de Neve" />
+          <figcaption>Branca de Neve</figcaption>
+        </figure>
+        <figure>
+          <img src="thunderbolts.jpg" alt="Thunderbolts" />
+          <figcaption>Thunderbolts</figcaption>
+        </figure>
+        <figure>
+          <img src="missao-impossivel.jpg" alt="Missão: Impossível" />
+          <figcaption>Missão: Impossível</figcaption>
+        </figure>
+        <figure>
+          <img src="jurassic-world.jpg" alt="Jurassic World: Recomeço" />
+          <figcaption>Jurassic World</figcaption>
+        </figure>
+        <figure>
+          <img src="superman.jpg" alt="Superman" />
+          <figcaption>Superman</figcaption>
+        </figure>
+        <figure>
+          <img src="premoniçao.png" alt="Premonição" />
+          <figcaption>Premonição</figcaption>
+        </figure>
+        <figure>
+          <img src="round6.png" alt="Round6" />
+          <figcaption>Round6</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <div class="contato">
+      <p>Dúvidas ou suporte? Fale com a gente no WhatsApp:<br />
+        <a href="https://wa.me/5547999453495" target="_blank" style="color: #00b894; text-decoration: underline;">
+          +55 47 99945-3495
+        </a>
+      </p>
+
+      <a href="https://wa.me/5547999453495" target="_blank" style="display: inline-block; margin-top: 5px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+             alt="WhatsApp"
+             width="40"
+             height="40"
+             style="filter: invert(90%) sepia(90%) saturate(380%) hue-rotate(110deg);" />
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    Desenvolvido por Marcos Vinicius Dionizio • © 2025
+  </footer>
+
+  <!-- Script para copiar chave Pix -->
+  <script>
+    function copiarPix(event) {
+      const chavePix = "marcao465@gmail.com";
+
+      navigator.clipboard.writeText(chavePix).then(() => {
+        alert("✅ Chave Pix copiada: " + chavePix);
+      }).catch(err => {
+        console.error("Erro ao copiar Pix: ", err);
+      });
+    }
+  </script>
+
+</body>
+</html>
